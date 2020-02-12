@@ -1,0 +1,302 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font: 20px/1.5 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100px;
+}
+
+.col-sm-6 {
+    padding: 0;
+}
+
+.col-md-4 {
+    padding: 10px;
+}
+
+/* NAVBAR */
+.navbar-toggler {
+    margin: 20px 20px 20px 10px;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    float: right;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.navbar-nav .nav-item .nav-link{
+    display: block;
+    float: right;
+    margin: 10px 20px 20px 10px;
+    width: 95px;
+    height: auto;
+
+    text-align: center;
+    color: #272727;
+
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.7), 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    box-shadow: inset -7px -7px 20px 0 rgba(255,255,255,0.7), inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+/* LANDING PAGE */
+#home {
+    display: block;
+    height: 100vh;
+}
+
+#home img#profile-pic {
+    width: auto;
+}
+
+.welcome-section {
+    float: right;
+    margin: 0px 30px;
+    padding: 18% 0 0 0;
+
+    font-weight: bold;
+    font-size: 96px;
+
+    color: #272727;
+}
+
+.welcome-section#expl {
+    padding: 0;
+    margin: 0px 30px 40px 30px;
+
+    font-weight: normal;
+    font-size: 30px;
+}
+
+/* ABOUT Section */
+#about {
+    padding: 30px;
+
+    text-align: center;
+}
+
+#about #title {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#about #expl {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+/* SKILLS Section */
+#skills {
+    min-height: 450px;
+    background: url('Skills\ BG.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#skills img {
+    width: 200px;
+}
+#skills .skills-section {
+    padding: 20px 0px 0px 0px;
+    margin: 10px 20px 0px 20px;
+
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+#skills .skills-section#main-title {
+    padding-top: 35px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+}
+
+#skills .skills-section #title{
+    margin-top: 40px;
+    
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#skills .skills-section #expl{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px;
+    margin-bottom: 30px;
+    color: #272727;
+    border: 5px solid #f2f2f2;
+    border-radius: 80px;
+    background-color: #F2F2F2;
+}
+
+/* EDUCATION Section */
+#education .col-sm-6#left {
+    padding: 0;
+
+    background-color: #9c4137;
+    border-radius: 0px 0px 100px 0px;
+}
+
+#education .col-sm-6#right #top{
+    background-color: #9c4137;
+}
+
+#education .col-sm-6#right #bottom{
+    background-color: #526E68;
+}
+
+#education .col-sm-6 #main-title{
+    color: #F2F2F2;
+    padding: 136px 0px;
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#education #title {
+    font-size: 25px;
+    font-weight: bold;
+
+    padding-left: 110px;
+}
+
+#education #expl {
+    padding-left: 110px;
+    font-weight: normal;
+}
+
+#education ul li.education-section {
+    padding: 28px 0px 28px 50px;
+    background-color: #F2F2F2;
+}
+
+#education ul li.education-section#upper {
+    border-radius: 75px 0px 0px 0px;
+}
+
+#education ul li.education-section#lower {
+    border-radius: 0px 0px 75px 0px;
+}
+
+#education img {
+    float: left;
+    padding: 10px;
+}
+
+/* EXPERIENCE Section */
+#experience .col-sm-6#right {
+    padding: 0;
+
+    background-color: #526E68;
+    border-radius: 100px 0px 0px 0px;
+}
+
+#experience .col-sm-6#left #top{
+    background-color: #9c4137;
+}
+
+#experience .col-sm-6#left #bottom{
+    background-color: #526E68;
+}
+
+#experience .col-sm-6 #main-title {
+    color: #F2F2F2;
+    margin: 276px 0px;
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#experience #title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#experience #expl {
+    font-weight: normal;
+    text-align: right;
+    margin: 0;
+}
+
+#experience ul li.experience-section {
+    padding: 25px 50px 25px 0px;
+}
+#experience #left ul li.experience-section#upper {
+    padding-top: 35px;
+    background-color: #F2F2F2;
+    border-radius: 100px 0px 0px 0px;
+}
+
+#experience #left ul li.experience-section#lower {
+    padding-bottom: 35px;
+    background-color: #F2F2F2;
+    border-radius: 0px 0px 75px 0px;
+}
+
+#experience img {
+    float: right;
+    padding: 10px;
+}
+
+/* PLAYLIST Section */
+#playlist {
+    text-align: center;
+    color: #F2F2F2;
+
+    background: url('Playlist\ BG.jpg') no-repeat 0 -500px;
+    background-size: 100%;
+}
+
+#playlist #title {
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 30px 20px 40px 20px;
+}
+
+#playlist #expl {
+    margin-bottom: 30px;
+}
+
+/* CONTACT Section */
+#contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #f1edee;
+}
+
+#contact #title {
+    font-weight: bold;
+}
+
+#contact img {
+    width: 40px;
+    margin: 10px 30px 10px 30px
+}
