@@ -21,8 +21,7 @@
     </style>
 
     <!-- Link font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">    <meta charset="UTF-8">
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Open+Sans:400,700,800|Yeseva+One&display=swap" rel="stylesheet">        
     <title>Surya Nirvana</title>
   </head>
   <body>
@@ -52,9 +51,30 @@
     </nav>
     
     <div id="home">
-      <img id="profile-pic" src="images/profile-04.png" class="rounded float-left img-fluid" alt="Profile Picture">
-      <h1 class="welcome-section ml-auto" id="title">welcome</h1>
-      <h2 class="welcome-section ml-auto" id="expl">to Surya Nirvana's website.</h2>
+        <img id="profile-pic" src="images/profile-04.png" class="rounded float-left img-fluid" alt="Profile Picture">
+        <h1 class="welcome-section ml-auto" id="title">welcome</h1>
+        <h2 class="welcome-section ml-auto" id="expl">to Surya Nirvana's website.</h2>
+      
+        <!-- Button trigger modal -->
+        <button type="button" class="welcome-section ml-auto" data-toggle="modal" data-target="#exampleModal">Click Here for Surprise!</button>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hey there 😊</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        Have a nice day!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="about">
@@ -170,7 +190,7 @@
 
     <div id="playlist">
         <h1 id="title">current playlist</h1>
-        <iframe src="https://open.spotify.com/embed/playlist/0fNjwd1kqL8aaSuHpTyRMJ" width="1200" height="540" frameborder="0" allowtransparency="true" allow="encrypted-media" id="expl"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/0fNjwd1kqL8aaSuHpTyRMJ" frameborder="0" allowtransparency="true" allow="encrypted-media" id="expl"></iframe>
     </div>
 
     <div id="contact">
