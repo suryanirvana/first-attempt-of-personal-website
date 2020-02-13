@@ -1,4 +1,5 @@
 <!doctype html>
+{% load static %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Link CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen"/>
     <style>
       html, body {
           width: 100%;
@@ -21,7 +22,8 @@
     </style>
 
     <!-- Link font -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Open+Sans:400,700,800|Yeseva+One&display=swap" rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Open+Sans:400,700,800|Roboto+Slab:700&display=swap" rel="stylesheet">
+
     <title>Surya Nirvana</title>
   </head>
   <body>
@@ -51,7 +53,7 @@
     </nav>
     
     <div id="home">
-        <img id="profile-pic" src="images/profile-04.png" class="rounded float-left img-fluid" alt="Profile Picture">
+        <img id="profile-pic" src="{% static 'images/profile-04.png' %}" class="rounded float-left img-fluid" alt="Profile Picture">
         <h1 class="welcome-section ml-auto" id="title">welcome</h1>
         <h2 class="welcome-section ml-auto" id="expl">to Surya Nirvana's website.</h2>
       
@@ -91,17 +93,17 @@
         <h1 class="skills-section" id="main-title">skills</h1>
         <div class="row one skills-section">
             <div class="col-md-4">
-                <img src="images/Skill-03.png">
+                <img src="{% static 'images/Skill-03.png' %}">
                 <h3 id="title">Programming</h3>
                 <p id="expl">Java ● Python</p>
             </div>
             <div class="col-md-4">
-                <img src="images/Skill-01.png">
+                <img src="{% static 'images/Skill-01.png' %}">
                 <h3 id="title">Analytics</h3>
                 <p id="expl">Python ● PostgreSQL ● Excel</p>
             </div>
             <div class="col-md-4">
-                <img src="images/Skill-02.png">
+                <img src="{% static 'images/Skill-02.png' %}">
                 <h3 id="title">Web/Media</h3>
                 <p id="expl">Illustrator ● HTML/CSS/JavaScript</p>
             </div>
@@ -117,7 +119,7 @@
                 <ul>
                     <div id="top">
                         <li class="education-section" id="upper">
-                            <img src="images/highschool.png">
+                            <img src="{% static 'images/highschool.png' %}">
                             <h2 id="title">
                                 Taruna Bakti<br>
                                 Senior High School
@@ -127,7 +129,7 @@
                     </div>
                     <div id="bottom">
                         <li class="education-section" id="lower">
-                            <img src="images/college.png">
+                            <img src="{% static 'images/college.png' %}">
                             <h2 id="title">
                                 Faculty of Computer Science<br>
                                 Universitas Indonesia
@@ -146,7 +148,7 @@
                 <ul>
                     <div id="top">
                         <li class="experience-section" id="upper">
-                            <img src="images/work-2.png">
+                            <img src="{% static 'images/work-2.png' %}">
                             <h2 id="title">
                                 Social Media Intern<br>
                                 at DailySocial.id
@@ -155,7 +157,7 @@
                         </li>
                     </div>
                     <li class="experience-section">
-                      <img src="images/school-2.png">
+                      <img src="{% static 'images/school-2.png' %}">
                       <h2 id="title">
                         Database Teaching Assistant<br>
                         at Fasilkom UI
@@ -163,7 +165,7 @@
                       <p id="expl">Jan 2019 - Present</p>
                     </li>
                     <li class="experience-section">
-                        <img src="images/team.png">
+                        <img src="{% static 'images/team.png' %}">
                         <h2 id="title">
                             Manager of Human Resources<br>
                             at PERAK Fasilkom
@@ -172,7 +174,7 @@
                     </li>
                     <div id="bottom">
                         <li class="experience-section" id="lower">
-                            <img src="images/shout.png">
+                            <img src="{% static 'images/shout.png' %}">
                             <h2 id="title">
                                 Vice Person in Charge of<br>
                                 Digital Marketing at COMPFEST
@@ -196,9 +198,9 @@
     <div id="contact">
         <h3 class="contact-section" id="title">stay in touch with me</h3>
         <ul>
-            <a class="contact-section" id="expl" href="mailto:suryanirvanaprima@gmail.com"><img src="images/email.png"></a>
-            <a class="contact-section" id="expl" href="https://www.linkedin.com/in/suryanirvana"><img src="images/linkedin-3.png"></a>
-            <a class="contact-section" id="expl" href="https://www.instagram.com/suryanirvana"><img src="images/instagram-5.png"></a>
+            <a class="contact-section" id="expl" href="mailto:suryanirvanaprima@gmail.com"><img src="{% static 'images/email.png' %}"></a>
+            <a class="contact-section" id="expl" href="https://www.linkedin.com/in/suryanirvana"><img src="{% static 'images/linkedin-3.png' %}"></a>
+            <a class="contact-section" id="expl" href="https://www.instagram.com/suryanirvana"><img src="{% static 'images/instagram-5.png' %}"></a>
         </ul>
     </div>
 
