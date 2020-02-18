@@ -345,6 +345,7 @@ button.welcome-section:hover {
 .responsive#experience .col-sm-6{
     background-color: #F2F2F2;
 }
+
 .responsive#experience .col-sm-6 #main-title {
     padding: 0px;
     font-size: 0px;
@@ -446,7 +447,6 @@ button.welcome-section:hover {
         margin-right: auto;
         margin-bottom: 10px;
         float: none;
-        padding: 0px;
         width: 80px;
     }
 
@@ -543,7 +543,7 @@ button.welcome-section:hover {
         padding-top: 0px;
     }
     #about #title {
-        margin-top: 200px;
+        margin-top: 0px;
         font-size: 40px;
     }
     #about #expl {
@@ -603,7 +603,6 @@ button.welcome-section:hover {
         margin-right: auto;
         margin-bottom: 10px;
         float: none;
-        padding: 0px;
         width: 100px;
     }
 
@@ -672,7 +671,291 @@ button.welcome-section:hover {
     }
 }
 
-@media only screen and (min-width: 575px) and (max-width: 771px){
+@media only screen and (min-width: 576px) and (max-width: 762px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 18px;
+        width: 100px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 100px;
+    }
+    .welcome-section#expl {
+        font-size: 30px;
+    }
+    button.welcome-section {
+        padding: 5px 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    
+        font-size: 15px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 180px;
+    }
+    #skills .skills-section {
+        font-size: 40px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 20px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        height: 100%;
+        padding: 259px 0px;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #education #expl {
+        padding-left: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education ul li.education-section#upper {
+        padding-bottom: 0px;
+        border-radius: 75px 0px 0px 0px;
+    }
+    #education ul li.education-section#lower {
+        border-radius: 0px 0px 75px 0px;
+    }
+    #education img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        float: none;
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        padding: 100px 0px;
+        font-size: 40px;
+        margin: 0px;
+    }
+    #experience .col-sm-6#left #top{
+        background-color: #9c4137;
+    }
+    #experience #title {
+        padding-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #experience #expl {
+        padding-left: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #experience ul li.experience-section {
+        padding: 18px 30px;
+    }
+    #experience img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        float: none;
+        padding: 0px;
+        width: 100px;
+    }
+
+    /* PLAYLIST Section */
+    #playlist #title {
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 40px 20px 10px 20px;
+    }
+
+    /* CONTACT Section */
+    #contact #title {
+        font-size: 27px;
+    }
+    #contact img {
+        width: 35px;
+        margin: 10px 15px;
+    }    
+}
+
+@media only screen and (min-width: 632px) and (max-width: 762px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 18px;
+        width: 100px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 100px;
+    }
+    .welcome-section#expl {
+        font-size: 30px;
+    }
+    button.welcome-section {
+        padding: 5px 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    
+        font-size: 15px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 180px;
+    }
+    #skills .skills-section {
+        font-size: 40px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 20px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        height: 100%;
+        padding: 244px 0px;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #education #expl {
+        padding-left: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education ul li.education-section#upper {
+        padding-bottom: 0px;
+        border-radius: 75px 0px 0px 0px;
+    }
+    #education ul li.education-section#lower {
+        border-radius: 0px 0px 75px 0px;
+    }
+    #education img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        float: none;
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        padding: 100px 0px;
+        font-size: 40px;
+        margin: 0px;
+    }
+    #experience .col-sm-6#left #top{
+        background-color: #9c4137;
+    }
+    #experience #title {
+        padding-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #experience #expl {
+        padding-left: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #experience ul li.experience-section {
+        padding: 18px 30px;
+    }
+    #experience img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        float: none;
+        padding: 0px;
+        width: 100px;
+    }
+
+    /* PLAYLIST Section */
+    #playlist #title {
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 40px 20px 10px 20px;
+    }
+
+    /* CONTACT Section */
+    #contact #title {
+        font-size: 27px;
+    }
+    #contact img {
+        width: 35px;
+        margin: 10px 15px;
+    }    
+}
+
+@media only screen and (min-width: 763px) and (max-width: 822px){
     /* NAVBAR */
     .navbar-nav .nav-item .nav-link{
         font-size: 24px;
@@ -704,7 +987,7 @@ button.welcome-section:hover {
         padding-top: 0px;
     }
     #about #title {
-        margin-top: 55vh;
+        margin-top: 100px;
     }
     #about #expl {
         margin: 0px;
@@ -752,7 +1035,6 @@ button.welcome-section:hover {
         padding: 30px 30px;
     }
     #education img {
-        padding: 0px;
         width: 100px;
     }
 
@@ -770,9 +1052,106 @@ button.welcome-section:hover {
     }
 } 
 
-@media only screen and (min-width: 771px) and (max-width:1300px){
-     /* NAVBAR */
-     .navbar-nav .nav-item .nav-link{
+@media only screen and (min-width: 823px) and (max-width: 847px){
+        /* NAVBAR */
+        .navbar-nav .nav-item .nav-link{
+            font-size: 24px;
+            width: 120px;
+            border-radius: 40px;
+        }
+    
+        /* WELCOME Section */
+        .welcome-section#title {
+            padding-top: 40px;
+            font-size: 140px;
+        }
+        .welcome-section#expl {
+            font-size: 38px;
+        }
+        button.welcome-section {
+            padding: 15px;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        
+            font-size: 25px;
+    
+            border-radius: 40px;
+        }
+    
+        /* ABOUT Section */
+        #about {
+            display: block;
+            padding-top: 0px;
+        }
+        #about #title {
+            margin-top: 100px;
+        }
+        #about #expl {
+            margin: 0px;
+            padding: 0px 30px;
+            font-size: 25px;
+        }
+    
+        /* SKILLS Section */
+        #skills img {
+            width: 150px;
+        }
+        #skills .row.one.skills-section {
+            padding-top: 0px;
+        }
+        #skills .skills-section #title{
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        #skills .skills-section #expl{
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+    
+        /* EDUCATION Section */
+        #education .col-sm-6 #main-title{
+            padding: 136px 0px;
+            margin-bottom: 0px;
+        }
+        #education #title {
+            padding-left: 120px;
+            font-size: 20px;
+        }
+        #education #expl {
+            margin-bottom: 0px;
+            padding-left: 120px;
+            font-size: 18px;
+        }
+        #education #upper #title {
+            padding-top: 11px;
+        }
+        #education #upper #expl {
+            padding-bottom: 11px;
+        }
+        #education ul li.education-section {
+            padding: 30px 30px;
+        }
+        #education img {
+            width: 100px;
+        }
+    
+        /* EXPERIENCE Section */
+        #experience .col-sm-6 #main-title {
+            margin: 270px 0px;
+        }
+        #experience #title {
+            padding-right: 110px;
+            font-size: 20px;
+        }
+        #experience #expl {
+            padding-right: 110px;
+            font-size: 18px;
+        }    
+}
+
+@media only screen and (min-width: 848px) and (max-width: 855px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
         font-size: 24px;
         width: 120px;
         border-radius: 40px;
@@ -781,11 +1160,9 @@ button.welcome-section:hover {
     /* WELCOME Section */
     .welcome-section#title {
         padding-top: 40px;
-        font-size: 150px;
+        font-size: 140px;
     }
     .welcome-section#expl {
-        margin-top: 0px;
-        padding-left: 35%;
         font-size: 38px;
     }
     button.welcome-section {
@@ -800,21 +1177,21 @@ button.welcome-section:hover {
 
     /* ABOUT Section */
     #about {
-        display: inline-block;
+        display: block;
         padding-top: 0px;
     }
     #about #title {
-        margin-top: 50px;
+        margin-top: 100px;
     }
     #about #expl {
         margin: 0px;
-        padding: 0px 50px;
+        padding: 0px 30px;
         font-size: 25px;
     }
 
     /* SKILLS Section */
     #skills img {
-        width: 180px;
+        width: 150px;
     }
     #skills .row.one.skills-section {
         padding-top: 0px;
@@ -830,36 +1207,522 @@ button.welcome-section:hover {
 
     /* EDUCATION Section */
     #education .col-sm-6 #main-title{
-        padding: 140px 0px;
+        padding: 136px 0px;
         margin-bottom: 0px;
     }
     #education #title {
         padding-left: 120px;
-        font-size: 30px;
+        font-size: 20px;
     }
     #education #expl {
         margin-bottom: 0px;
         padding-left: 120px;
-        font-size: 20px;
+        font-size: 18px;
+    }
+    #education #upper #title {
+        padding-top: 11px;
+    }
+    #education #upper #expl {
+        padding-bottom: 11px;
     }
     #education ul li.education-section {
         padding: 30px 30px;
     }
     #education img {
-        padding: 0px;
         width: 100px;
     }
 
     /* EXPERIENCE Section */
     #experience .col-sm-6 #main-title {
-        margin: 300px 0px;
+        margin: 258px 0px;
     }
     #experience #title {
         padding-right: 110px;
-        font-size: 30px;
+        font-size: 20px;
     }
     #experience #expl {
         padding-right: 110px;
+        font-size: 18px;
+    }    
+}
+
+@media only screen and (min-width: 856px) and (max-width: 865px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 24px;
+        width: 120px;
+        border-radius: 40px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 140px;
+    }
+    .welcome-section#expl {
+        font-size: 38px;
+    }
+    button.welcome-section {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    
+        font-size: 25px;
+
+        border-radius: 40px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 100px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px 30px;
+        font-size: 25px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 150px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        padding: 136px 0px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 120px;
         font-size: 20px;
     }
-} 
+    #education #expl {
+        margin-bottom: 0px;
+        padding-left: 120px;
+        font-size: 18px;
+    }
+    #education #upper #title {
+        padding-top: 11px;
+    }
+    #education #upper #expl {
+        padding-bottom: 11px;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education img {
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        margin: 258px 0px;
+    }
+    #experience #title {
+        padding-right: 110px;
+        font-size: 20px;
+    }
+    #experience #expl {
+        padding-right: 110px;
+        font-size: 18px;
+    }    
+}
+
+@media only screen and (min-width: 866px) and (max-width: 870px){
+        /* NAVBAR */
+        .navbar-nav .nav-item .nav-link{
+            font-size: 24px;
+            width: 120px;
+            border-radius: 40px;
+        }
+    
+        /* WELCOME Section */
+        .welcome-section#title {
+            padding-top: 40px;
+            font-size: 140px;
+        }
+        .welcome-section#expl {
+            font-size: 38px;
+        }
+        button.welcome-section {
+            margin-top: 25px;
+            margin-bottom: 20px;
+        
+            font-size: 25px;
+    
+            border-radius: 40px;
+        }
+    
+        /* ABOUT Section */
+        #about {
+            display: block;
+            padding-top: 0px;
+        }
+        #about #title {
+            margin-top: 100px;
+        }
+        #about #expl {
+            margin: 0px;
+            padding: 0px 30px;
+            font-size: 25px;
+        }
+    
+        /* SKILLS Section */
+        #skills img {
+            width: 150px;
+        }
+        #skills .row.one.skills-section {
+            padding-top: 0px;
+        }
+        #skills .skills-section #title{
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        #skills .skills-section #expl{
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+    
+        /* EDUCATION Section */
+        #education .col-sm-6 #main-title{
+            padding: 136px 0px;
+            margin-bottom: 0px;
+        }
+        #education #title {
+            padding-left: 120px;
+            font-size: 20px;
+        }
+        #education #expl {
+            margin-bottom: 0px;
+            padding-left: 120px;
+            font-size: 18px;
+        }
+        #education #upper #title {
+            padding-top: 11px;
+        }
+        #education #upper #expl {
+            padding-bottom: 11px;
+        }
+        #education ul li.education-section {
+            padding: 30px 30px;
+        }
+        #education img {
+            width: 100px;
+        }
+    
+        /* EXPERIENCE Section */
+        #experience .col-sm-6 #main-title {
+            margin: 246px 0px;
+        }
+        #experience #title {
+            padding-right: 110px;
+            font-size: 20px;
+        }
+        #experience #expl {
+            padding-right: 110px;
+            font-size: 18px;
+        }        
+}
+
+@media only screen and (min-width: 871px) and (max-width: 895px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 24px;
+        width: 120px;
+        border-radius: 40px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 140px;
+    }
+    .welcome-section#expl {
+        font-size: 38px;
+    }
+    button.welcome-section {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    
+        font-size: 25px;
+
+        border-radius: 40px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 100px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px 30px;
+        font-size: 25px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 150px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        padding: 136px 0px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 120px;
+        font-size: 20px;
+    }
+    #education #expl {
+        margin-bottom: 0px;
+        padding-left: 120px;
+        font-size: 18px;
+    }
+    #education #upper #title {
+        padding-top: 11px;
+    }
+    #education #upper #expl {
+        padding-bottom: 11px;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education img {
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        margin: 246px 0px;
+    }
+    #experience #title {
+        padding-right: 110px;
+        font-size: 20px;
+    }
+    #experience #expl {
+        padding-right: 110px;
+        font-size: 18px;
+    }        
+}
+
+@media only screen and (min-width: 896px) and (max-width: 1135px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 24px;
+        width: 120px;
+        border-radius: 40px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 140px;
+    }
+    .welcome-section#expl {
+        font-size: 38px;
+    }
+    button.welcome-section {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    
+        font-size: 25px;
+
+        border-radius: 40px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 100px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px 30px;
+        font-size: 25px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 150px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        padding: 124px 0px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 120px;
+        font-size: 20px;
+    }
+    #education #expl {
+        margin-bottom: 0px;
+        padding-left: 120px;
+        font-size: 18px;
+    }
+    #education #upper #title {
+        padding-top: 11px;
+    }
+    #education #upper #expl {
+        padding-bottom: 11px;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education img {
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        margin: 246px 0px;
+    }
+    #experience #title {
+        padding-right: 110px;
+        font-size: 20px;
+    }
+    #experience #expl {
+        padding-right: 110px;
+        font-size: 18px;
+    }        
+}
+
+@media only screen and (min-width: 1136px) and (max-width: 1300px){
+    /* NAVBAR */
+    .navbar-nav .nav-item .nav-link{
+        font-size: 24px;
+        width: 120px;
+        border-radius: 40px;
+    }
+
+    /* WELCOME Section */
+    .welcome-section#title {
+        padding-top: 40px;
+        font-size: 140px;
+    }
+    .welcome-section#expl {
+        font-size: 38px;
+    }
+    button.welcome-section {
+        padding: 15px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    
+        font-size: 25px;
+
+        border-radius: 40px;
+    }
+
+    /* ABOUT Section */
+    #about {
+        display: block;
+        padding-top: 0px;
+    }
+    #about #title {
+        margin-top: 100px;
+    }
+    #about #expl {
+        margin: 0px;
+        padding: 0px 30px;
+        font-size: 25px;
+    }
+
+    /* SKILLS Section */
+    #skills img {
+        width: 150px;
+    }
+    #skills .row.one.skills-section {
+        padding-top: 0px;
+    }
+    #skills .skills-section #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #skills .skills-section #expl{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    /* EDUCATION Section */
+    #education .col-sm-6 #main-title{
+        padding: 124px 0px;
+        margin-bottom: 0px;
+    }
+    #education #title {
+        padding-left: 120px;
+        font-size: 20px;
+    }
+    #education #expl {
+        margin-bottom: 0px;
+        padding-left: 120px;
+        font-size: 18px;
+    }
+    #education #upper #title {
+        padding-top: 11px;
+    }
+    #education #upper #expl {
+        padding-bottom: 11px;
+    }
+    #education ul li.education-section {
+        padding: 30px 30px;
+    }
+    #education img {
+        width: 100px;
+    }
+
+    /* EXPERIENCE Section */
+    #experience .col-sm-6 #main-title {
+        margin: 246px 0px;
+    }
+    #experience #title {
+        padding-right: 110px;
+        font-size: 20px;
+    }
+    #experience #expl {
+        padding-right: 110px;
+        font-size: 18px;
+    }        
+}
