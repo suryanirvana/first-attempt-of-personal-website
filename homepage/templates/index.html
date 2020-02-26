@@ -147,11 +147,77 @@
         </div>
     </div>
 
-    <div id="playlist">
-        <h1 id="title">current playlist</h1>
-        <iframe src="https://open.spotify.com/embed/playlist/0fNjwd1kqL8aaSuHpTyRMJ" frameborder="0" allowtransparency="true" allow="encrypted-media" id="expl"></iframe>
+    <div id="friends">
+        <h1 id="title">get to know my friends</h1>
+        <!-- <iframe src="https://open.spotify.com/embed/playlist/0fNjwd1kqL8aaSuHpTyRMJ" frameborder="0" allowtransparency="true" allow="encrypted-media" id="expl"></iframe> -->
+        <div class="row-five">
+            <form method="POST">
+                {% csrf_token %}
+                <div class="col-md-6" id="forms">
+                    <div class="form-group">
+                        <label for="name" class="expl">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" maxlength="255" required placeholder="Please enter your name">
+                    </div>
+                    <div class="form-group">
+                    <label for="batchYear" class=expl>Batch Year</label>
+                        <select class="form-control" id="ClassYear" type="text" name="ClassYear" maxlength="6" required>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="hobby" class="expl">Hobby</label>
+                        <input class="form-control" id="hobby" type="text" name="hobby" maxlength="255" required placeholder="What is your hobby? (ex. Sleep)">
+                    </div>
+                    <div class="form-group">
+                        <label for="food" class="expl">Favorite Food</label>
+                        <input class="form-control" id="food" type="text" name="food" maxlength="255" required placeholder="What is your favorite food?">
+                    </div>
+                    <div class="form-group">
+                        <label for="drink" class="expl">Favorite Drink</label>
+                        <input class="form-control" id="drink" type="text" name="drink" maxlength="255" required placeholder="What is your favorite drink?">
+                    </div>
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+                <div class="response">
+                {% for i in friends %}
+                    <div class="col-md-6" id="response">
+                        <div class="friends-name">
+                            <a href="deleteItem/{{i.name}}" id="deleteBtn" style="float: right; padding: 0;" ><img src="{% static 'images/delete.png' %}" alt=""></a>
+                            <img src="{% static 'images/friendship.png' %}" alt="">
+                            <h1 id="name">{{ i.name }}</h1>
+                        </div>
+                        <div class="batch-year">
+                            <img src="{% static 'images/graduation-hat.png' %}" alt="">
+                            <h1 id="batch">{{ i.ClassYear }}</h1>
+                        </div>
+                        <div class="friends-hobby">
+                            <img src="{% static 'images/jigsaw.png' %}" alt="">
+                            <h1 id="hobby">{{ i.hobby }}</h1>
+                        </div>
+                        <div class="friends-food">
+                            <img src="{% static 'images/fork.png' %}" alt="">
+                            <h1 id="food">{{ i.food }}</h1>
+                        </div>
+                        <div class="friends-drink">
+                            <img src="{% static 'images/can.png' %}" alt="">
+                            <h1 id="drink">{{ i.drink }}</h1>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </form>
+            <div id="scroll">
+                <h1>scroll down to see the full list</h1>
+            </div>
+        </div>
     </div>
-
+    
     <div id="contact">
         <h3 class="contact-section" id="title">stay in touch with me</h3>
         <ul>
